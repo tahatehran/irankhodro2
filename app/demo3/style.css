@@ -1,0 +1,211 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+hr {
+    display: block;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+
+.text-image {
+    font-size: 0.75rem; /* Adjust font size as needed */
+    font-weight: bold;
+    background: linear-gradient(to right, #848784, #626362);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+.navbar a {
+    text-align: right;
+}
+
+.rtl {
+    direction: rtl;
+}
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-item {
+    position: relative;
+    margin: 0 1rem;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+.sub-menu {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(201, 205, 213);
+    padding: 0;
+    margin: 0;
+    display: none;
+    z-index: 1000;
+}
+
+.nav-item:hover .sub-menu {
+    display: block;
+}
+
+.sub-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background: #000;
+    position: relative;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #039; /* آبی تیره‌تر */
+    color: white;
+    padding: 2rem 1rem;
+    width: 100%;
+}
+
+.footer .main-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.footer .main-icons a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.footer .main-icons a:hover {
+    transform: scale(1.1);
+}
+
+.footer .main-icons img {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer .main-icons span {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.footer .social-text {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.footer .social-icons a {
+    margin: 0 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.footer .social-icons img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.footer hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 1.5rem 0;
+}
+
+.footer .ikco-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 1.5rem 0;
+}
+
+.footer .bottom-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.footer .bottom-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .bottom-links a:hover {
+    text-decoration: underline;
+}
+
+.footer .designer {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-top: 1.5rem;
+}

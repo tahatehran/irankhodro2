@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ایران خودرو - صفحه یافت نشد</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" href="https://armigram1.s3.ir-thr-at1.arvanstorage.ir/photo%2Ffavicon.ico?versionId=">
+    <style>
+       .machine {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: #333;
+            margin: 20px auto;
+            animation: move 3s infinite;
+        }
+        @keyframes move {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(20px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body class="font-sans leading-normal tracking-normal text-gray-900">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-primary text-white">
+        <div class="bg-blue-800 py-2">
+            <div class="container mx-auto flex justify-between items-center">
+                <ul class="hidden md:flex space-x-4">
+                    <li><a href="#" class="hover:underline">صفحه اصلی</a></li>
+                    <li><a href="#" class="hover:underline">محصولات</a></li>
+                    <li><a href="#" class="hover:underline">اخبار</a></li>
+                    <li><a href="#" class="hover:underline">تماس با ما</a></li>
+                </ul>
+                <div class="search flex items-center">
+                    <input type="text" class="form-input px-2 py-1" placeholder="جستجو...">
+                    <button type="submit" class="bg-yellow-500 text-white px-2 py-1 ml-2 rounded"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white py-3 shadow-md">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="logo">
+                    <img src="logo-fa.webp" alt="ایران خودرو" class="h-12">
+                </div>
+                <nav class="hidden md:flex space-x-4">
+                    <a href="#" class="text-gray-700 hover:text-blue-700">درباره شرکت</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-700">محصولات</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-700">نمایندگی‌ها</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-700">خدمات</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-700">ارتباط با مشتریان</a>
+                    <a href="login.html" class="text-gray-700 hover:text-blue-700">ورود</a>
+                </nav>
+                <button class="md:hidden text-gray-700 focus:outline-none navbar-toggler" type="button">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="collapse md:hidden bg-gray-100" id="navbarNav">
+        <ul class="flex flex-col p-3 space-y-2">
+            <li><a href="index.html" class="text-gray-700">صفحه اصلی</a></li>
+            <li><a href="#" class="text-gray-700">محصولات</a></li>
+            <li><a href="#" class="text-gray-700">اخبار</a></li>
+            <li><a href="#" class="text-gray-700">تماس با ما</a></li>
+                       <li><a href="#" class="text-gray-700">درباره شرکت</a></li>
+            <li><a href="#" class="text-gray-700">نمایندگی‌ها</a></li>
+            <li><a href="#" class="text-gray-700">خدمات</a></li>
+            <li><a href="#" class="text-gray-700">ارتباط با مشتریان</a></li>
+            <li><a href="login.html" class="text-gray-700">ورود</a></li>
+        </ul>
+    </div>
+
+         <!-- 404 Error Page Content -->
+    <div class="container mx-auto pt-20">
+      <div class="flex justify-center">
+        <div class="machine">
+            <div class="circle">
+                <img src="https://armigram1.s3.ir-thr-at1.arvanstorage.ir/photo%2FOIP.jpg?versionId=" alt="ایران خودرو" class="h-12">
+             </div>
+        </div>
+      </div>
+      <h1 class="text-4xl font-bold text-center">404</h1>
+      <p class="text-lg text-center">متاسفانه صفحه مورد نظر یافت نشد.</p>
+       <p class="text-lg text-center">لطفاً آدرس را چک کنید و دوباره تلاش کنید.</p>
+       <p class="text-lg text-center">ایرانخودرو همیشه با شماست .</p>
+    </div>
+
+    <style>
+      .circle {
+           width: 200px;
+           height: 200px;
+           border-radius: 80%;
+           background-color: #333;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           animation: rotate 6s linear infinite;
+      }
+
+      @keyframes rotate {
+           0% {
+             transform: rotate(0deg);
+           }
+          100% {
+              transform: rotate(30deg);
+           }
+        }
+    </style>
+</body>
+</html>

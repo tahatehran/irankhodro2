@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ایران خودرو</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" href="https://armigram1.s3.ir-thr-at1.arvanstorage.ir/photo%2Ffavicon.ico?versionId=">
+</head>
+<body class="font-sans leading-normal tracking-normal text-gray-900">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-primary text-white">
+        <div class="bg-blue-800 py-2">
+            <div class="container mx-auto flex justify-between items-center">
+                <ul class="hidden md:flex space-x-4">
+                    <li><a href="#" class="hover:underline">صفحه اصلی</a></li>
+                    <li><a href="#" class="hover:underline">محصولات</a></li>
+                    <li><a href="#" class="hover:underline">اخبار</a></li>
+                    <li><a href="#" class="hover:underline">تماس با ما</a></li>
+                </ul>
+                <div class="search flex items-center">
+                    <input type="text" class="form-input px-2 py-1" placeholder="جستجو...">
+                    <button type="submit" class="bg-yellow-500 text-white px-2 py-1 ml-2 rounded"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white py-3 shadow-md">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="logo">
+                    <img src="logo-fa.webp" alt="ایران خودرو" class="h-12">
+                </div>
+                <nav class="hidden md:flex space-x-4">
+                    <a href="#" class="text-gray-700 hover:text-blue-700">درباره شرکت</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-700">محصولات</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-700">نمایندگی‌ها</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-700">خدمات</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-700">ارتباط با مشتریان</a>
+                    <a href="login.html" class="text-gray-700 hover:text-blue-700">ورود</a>
+                </nav>
+                <button class="md:hidden text-gray-700 focus:outline-none navbar-toggler" type="button">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="collapse md:hidden bg-gray-100" id="navbarNav">
+        <ul class="flex flex-col p-3 space-y-2">
+            <li><a href="#" class="text-gray-700">صفحه اصلی</a></li>
+            <li><a href="#" class="text-gray-700">محصولات</a></li>
+            <li><a href="#" class="text-gray-700">اخبار</a></li>
+            <li><a href="#" class="text-gray-700">تماس با ما</a></li>
+            <li><a href="#" class="text-gray-700">درباره شرکت</a></li>
+            <li><a href="#" class="text-gray-700">نمایندگی‌ها</a></li>
+            <li><a href="#" class="text-gray-700">خدمات</a></li>
+            <li><a href="#" class="text-gray-700">ارتباط با مشتریان</a></li>
+            <li><a href="login.html" class="text-gray-700">ورود</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Slider -->
+    <div class="swiper-container main-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/HAIMA 8S  1423-376.png" class="w-full h-full object-cover" alt="Slide 1"></div>
+            <div class="swiper-slide"><img src="img/tara Dpi 96-min.jpg" class="w-full h-full object-cover" alt="Slide 2"></div>
+            <div class="swiper-slide"><img src="img/kkgqpcymp3.jpg" class="w-full h-full object-cover" alt="Slide 3"></div>
+            <div class="swiper-slide"><img src="img/vemavru5mn.jpg" class="w-full h-full object-cover" alt="Slide 4"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Services Section -->
+    <section class="services py-10 bg-gray-100">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+                <div>
+                    <a href="#" class="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition duration-300">
+                        <i class="fa fa-phone fa-3x mb-4 text-blue-700 animate__animated animate__fadeIn"></i>
+                        <h4 class="text-xl font-semibold">تماس با ما</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="404.html" class="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition duration-300">
+                        <i class="fa fa-building fa-3x mb-4 text-blue-700 animate__animated animate__fadeIn animate__delay-1s"></i>
+                        <h4 class="text-xl font-semibold">بازدید از شرکت</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition duration-300">
+                        <i class="fa fa-car fa-3x mb-4 text-blue-700 animate__animated animate__fadeIn animate__delay-2s"></i>
+                        <h4 class="text-xl font-semibold">نمایش همه محصولات</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="404.html" class="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition duration-300">
+                        <i class="fa fa-users fa-3x mb-4 text-blue-700 animate__animated animate__fadeIn animate__delay-3s"></i>
+                        <h4 class="text-xl font-semibold">مدیریت ارتباط با مشتریان</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="404.html" class="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition duration-300">
+                        <i class="fa fa-briefcase fa-3x mb-4 text-blue-700 animate__animated animate__fadeIn animate__delay-4s"></i>
+                        <h4 class="text-xl font-semibold">نمایندگی‌ها و آگاها</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition duration-300">
+                        <i class="fa fa-shopping-cart fa-3x mb-4 text-blue-700 animate__animated animate__fadeIn animate__delay-5s"></i>
+                        <h4 class="text-xl font-semibold">فروش اینترنتی محصولات</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <div class="mb-3 space-x-4">
+                <a href="https://www.instagram.com/ikcopressofficial/" class="text-white mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="404.html" class="text-white mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="404.html" class="text-white mx-2"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="404.html" class="text-white mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+            </div>
+            <p>IKCO.IR</p>
+            <p>&copy; 2024 ایران خودرو. کلیه حقوق محفوظ است.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

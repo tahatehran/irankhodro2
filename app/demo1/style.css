@@ -1,0 +1,77 @@
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .flex {
+    flex-wrap: wrap;
+}
+
+.footer .flex a {
+    flex: 1 1 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.footer .flex a img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer .social-icons {
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.footer .social-icons a {
+    margin: 0 0.5rem;
+}
+
+.footer .social-icons img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.footer p {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+.header, .navbar, .footer {
+    width: 100%;
+}
+
+.header img {
+    height: 50px;
+}
+
+.navbar a {
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
